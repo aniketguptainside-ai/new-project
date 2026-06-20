@@ -3,7 +3,7 @@ import random
 def number_guessing_game():
     secret_number = random.randint(1, 100)
     attempts = 0
-    print("मैंने 1 से 100 के बीच एक गुप्त नंबर चुना है।")
+    print("choose 1 to 100 bitween no. ")
 
     while True:
         try:
@@ -21,6 +21,7 @@ def number_guessing_game():
             print("कृपया एक वैध (valid) संख्या दर्ज करें।")
 
 number_guessing_game()
+
 
 
 
