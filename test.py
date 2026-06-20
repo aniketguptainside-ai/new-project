@@ -7,7 +7,7 @@ def number_guessing_game():
 
     while True:
         try:
-            guess = int(input("आपका अंदाज़ा क्या है? "))
+            guess = int(input("Guess please"))
             attempts += 1
             
             if guess < secret_number:
@@ -21,5 +21,7 @@ def number_guessing_game():
             print("कृपया एक वैध (valid) संख्या दर्ज करें।")
 
 number_guessing_game()
+
+
 
 
